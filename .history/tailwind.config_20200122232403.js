@@ -222,7 +222,7 @@ module.exports = {
         },
         fontFamily: {
             sans: [
-                'Barlow',
+                'Montserrat',
                 'sans-serif',
             ],
             alt: [
