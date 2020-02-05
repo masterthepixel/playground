@@ -7,6 +7,25 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700,800,900&display=swap');
 
+.text-shadow {
+  color: #000;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #e3e3e3,
+    0 0 25px #cacaca,
+    0 0 35px #b0b0b0,
+    0 0 40px #979797,
+    0 0 45px #7e7e7e;
+}
+
+.grayscalefilter {
+filter: grayscale(100%);
+
+}
+
+
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Based on: https://codepen.io/nickelse/pen/YGPJQG
 Influenced by: https://sproutsocial.com/
@@ -16,67 +35,67 @@ Influenced by: https://sproutsocial.com/
 /* #Mega Menu Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .mega-menu {
-    display: none;
-    left: 0;
-    position: absolute;
-    text-align: left;
-    width: 100%;
-  }
-  
-  
-  
-  /* #hoverable Class Styles
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+
+
+/* #hoverable Class Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .hoverable {
-    position: static;
-  }
-  
-  .hoverable>a:after {
-    /*  content: "\25BC";
+.hoverable {
+  position: static;
+}
+
+.hoverable>a:after {
+  /*  content: "\25BC";
     font-size: 10px;
     padding-left: 6px;
     position: relative;
     top: -1px; */
-  }
-  
-  .hoverable:hover .mega-menu {
-    display: block;
-  }
-  
-  
-  /* #toggle Class Styles
+}
+
+.hoverable:hover .mega-menu {
+  display: block;
+}
+
+
+/* #toggle Class Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  
-  .toggleable>label:after {
-    content: "\25BC";
-    font-size: 10px;
-    padding-left: 6px;
-    position: relative;
-    top: -1px;
-  }
-  
-  .toggle-input {
-    display: none;
-  }
-  
-  .toggle-input:not(checked)~.mega-menu {
-    display: none;
-  }
-  
-  .toggle-input:checked~.mega-menu {
-    display: block;
-  }
-  
-  .toggle-input:checked+label {
-    color: white;
-    background: #2c5282;
-    /*@apply bg-blue-800 */
-  }
-  
-  .toggle-input:checked~label:after {
-    content: "\25B2";
-    font-size: 10px;
-    padding-left: 6px;
-    position: relative;
-    top: -1px;
-  }
+
+.toggleable>label:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-input:not(checked)~.mega-menu {
+  display: none;
+}
+
+.toggle-input:checked~.mega-menu {
+  display: block;
+}
+
+.toggle-input:checked+label {
+  color: white;
+  background: #2c5282;
+  /*@apply bg-blue-800 */
+}
+
+.toggle-input:checked~label:after {
+  content: "\25B2";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
