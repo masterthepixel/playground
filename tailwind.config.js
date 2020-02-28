@@ -27,5 +27,6 @@ module.exports = {
   plugins: [
     require('./theme.config'),
     require('tailwindcss-font-inter')(),
+    require('@tailwindcss/custom-forms'),
   ]
 }
