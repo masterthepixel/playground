@@ -24,6 +24,7 @@ module.exports = {
     }
   },
   plugins: [
+    require('@tailwindcss/ui'),
     require('tailwindcss-font-inter')({ // it's plugin's default settings
       a: -0.0223,
       b: 0.185,
