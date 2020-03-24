@@ -1,0 +1,55 @@
+:root {
+  --headerOpacity: 1;
+  --headerScale: 1;
+}
+
+.video-header {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.video-header, .video-header video, .video-header .viewport-header {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-header video {
+  background: brown;
+  object-fit: cover;
+}
+.video-header .viewport-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  opacity: var(--headerOpacity);
+  transform: scale(var(--headerScale));
+}
+
+
+
+
+
+
+main {
+  background: white;
+  position: relative;
+  padding: 1rem;
+  margin-top: 100vh;
+}
+main::before {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: -100vh;
+}
+main p {
+  max-width: 600px;
+  margin: 1rem auto;
+}
