@@ -7,6 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="/build/tailwind.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
 
   <!-- Animate On Screen -->
@@ -808,7 +811,7 @@
   <!-- Video Text Overlay -->
 
 
-  <section class="text-white h-72 bg-video">
+  <!-- <section class="text-white h-72 bg-video">
     <div class="container mx-auto">
       <div class="flex">
         <div class="opacity-50 overlay "></div>
@@ -831,7 +834,29 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
+
+
+  <script src="./script.js"></script>
+
+  <!-- Start video hero -->
+  <div class="video-hero jquery-background-video-wrapper demo-video-wrapper">
+    <video class="jquery-background-video" autoplay muted loop
+      poster="http://pink-ship.cloudvent.net/assets/img/cookie_fallback.png">
+      <source src="http://pink-ship.cloudvent.net/assets/videos/baking_cookies_video.mp4" type="video/mp4">
+      <source src="https://d3k5xyayaartr5.cloudfront.net/_assets/home-video/beach-waves-loop.webm" type="video/webm">
+      <source src="https://d3k5xyayaartr5.cloudfront.net/_assets/home-video/beach-waves-loop.ogv" type="video/ogg">
+    </video>
+    <div class="video-overlay"></div>
+    <div class="page-width">
+      <div class="video-hero--content">
+        <h2>Background Video Demo</h2>
+        <p>Full width video hero</p>
+      </div>
+    </div>
+  </div>
+
 
 
 
