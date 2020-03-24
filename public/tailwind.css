@@ -269,6 +269,7 @@
  * if there are multiple videos in your site.
  * I.e. '.demo-video-wrapper' is the name of this particular video
  */
+
 .demo-video-wrapper {
 	background-image: url(https://d3k5xyayaartr5.cloudfront.net/_assets/home-video/beach-waves-loop.jpg);
   position: relative;
@@ -308,16 +309,8 @@
 }
 
 /* Other stuff */
-body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	line-height: 1.4;
-	color: #666;
-}
-a {
-	text-decoration: none;
-	color: #a46497;
-}
+
+
 .cf:before,
 .cf:after {
     content: " ";
@@ -340,14 +333,12 @@ a {
 }
 .title {
 	display: block;
-	font-weight: bold;
-	font-size: 18px;
+
 }
 .subtitle {
 	display: block;
 	font-weight: normal;
-	font-size: 15px;
-	color: #959699;
+
 }
 a:hover .subtitle {
 	color: #FFF;
