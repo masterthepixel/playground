@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="/build/tailwind.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
@@ -20,6 +21,14 @@
 </head>
 
 <body class="antialiased" style="background-color: #340382;">
+
+  <!-- Header Banner --->
+
+
+
+
+  <!-- \Header Banner -->
+
 
   <!-- Navigation -->
   <nav x-data="{ open: false }" class="">
@@ -38,26 +47,26 @@
         </div>
         <div class="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0">
-            <img class="block lg:hidden" src="./assets/svg/FL_Logo_Transparent.svg" alt="" />
-            <img class="hidden lg:block" src="./assets/svg/FL_Logo_Transparent.svg" alt="" />
+            <img class="block w-auto h-8 lg:hidden" src="./assets/png/2020_Logo.png" alt="" />
+            <img class="hidden w-auto h-8 lg:block" src="./assets/png/2020_Logo.png" alt="" />
           </div>
           <div class="hidden sm:block sm:ml-6">
             <!-- Desktop Menu Items -->
             <div class="flex">
-              <a href="#"
+              <a href="/"
                 class="px-3 py-2 font-semibold leading-5 text-white transition duration-150 ease-in-out bg-gray-900 rounded-md text-inter-sm focus:outline-none focus:text-white focus:bg-gray-700">Home</a>
 
-              <a href="#"
+              <a href="rush.html"
                 class="px-3 py-2 ml-4 font-semibold leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-sm hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Rush</a>
-              <a href="#"
+              <a href="accelerator.html"
                 class="px-3 py-2 ml-4 font-semibold leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-sm hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Accelerator</a>
-              <a href="#"
+              <a href="connect.html"
                 class="px-3 py-2 ml-4 font-semibold leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-sm hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Connect</a>
-              <a href="#"
+              <a href="capital.html"
                 class="px-3 py-2 ml-4 font-semibold leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-sm hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Capital</a>
-              <a href="#"
+              <a href="associates.html"
                 class="px-3 py-2 ml-4 font-semibold leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-sm hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Associates</a>
-              <a href="#"
+              <a href="contactus.html"
                 class="px-3 py-2 ml-4 font-semibold leading-5 text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-sm hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Contact</a>
             </div>
           </div>
@@ -82,13 +91,13 @@
               x-transition:leave-end="transform opacity-0 scale-95"
               class="absolute right-0 w-48 mt-2 origin-top-right rounded-md shadow-lg">
               <div class="py-1 bg-white rounded-md shadow-xs">
-                <a href="#"
+                <a href="tel:+8884880349"
                   class="block px-4 py-2 leading-5 text-gray-700 transition duration-150 ease-in-out text-inter-sm hover:bg-gray-100 focus:outline-none focus:bg-gray-100">Call
                   Us</a>
-                <a href="#"
+                <a href="contactus.html"
                   class="block px-4 py-2 leading-5 text-gray-700 transition duration-150 ease-in-out text-inter-sm hover:bg-gray-100 focus:outline-none focus:bg-gray-100">Email
                   Us</a>
-                <a href="#"
+                <a href="contactus.html"
                   class="block px-4 py-2 leading-5 text-gray-700 transition duration-150 ease-in-out text-inter-sm hover:bg-gray-100 focus:outline-none focus:bg-gray-100">Contact
                   Us</a>
               </div>
@@ -100,20 +109,20 @@
     <!-- Mobile Menu Items -->
     <div :class="{'block': open, 'hidden': !open}" class="hidden sm:hidden">
       <div class="px-2 pt-2 pb-3">
-        <a href="#"
+        <a href="/"
           class="block px-3 py-2 font-medium text-white transition duration-150 ease-in-out bg-gray-900 rounded-md text-inter-base focus:outline-none focus:text-white focus:bg-gray-700">Home</a>
 
-        <a href="#"
+        <a href="rush.html"
           class="block px-3 py-2 mt-1 font-medium text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-base hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Rush</a>
-        <a href="#"
+        <a href="accelerator.html"
           class="block px-3 py-2 mt-1 font-medium text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-base hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Accelerator</a>
-        <a href="#"
+        <a href="connect.html"
           class="block px-3 py-2 mt-1 font-medium text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-base hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Connect</a>
-        <a href="#"
+        <a href="capital.html"
           class="block px-3 py-2 mt-1 font-medium text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-base hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Capital</a>
-        <a href="#"
+        <a href="associates.html"
           class="block px-3 py-2 mt-1 font-medium text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-base hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Associates</a>
-        <a href="#"
+        <a href="contactus.html"
           class="block px-3 py-2 mt-1 font-medium text-gray-300 transition duration-150 ease-in-out rounded-md text-inter-base hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Contact</a>
       </div>
     </div>
@@ -597,7 +606,7 @@
                 <span class="font-extrabold leading-none text-white text-inter-5xl">
                   $197
                 </span>
-                <span class="ml-3 font-bold leading-7 line-through opacity-75 text-gray text-inter-lg">
+                <span class="ml-3 font-bold leading-7 text-gray-400 line-through text-inter-lg">
                   $397
                 </span>
               </div>
