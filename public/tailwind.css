@@ -1,16 +1,38 @@
 @tailwind base;
 
-
-
-
-
 #hero{
   background-size: cover;
   
   background-image: 
   linear-gradient(rgba(255, 255, 255, 0.5), rgba(52, 3, 130, 1)),
-  url("https://freightleads.netlify.com/assets/img/openmouthlionjpeg");
+  url("https://images.pexels.com/photos/3651330/pexels-photo-3651330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
+
+.section--hero {
+  background-image: url("https://images.pexels.com/photos/3651330/pexels-photo-3651330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+
+.hero-bg-animated {
+  background: gray url(./assets/png/triangle_pattern.png) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
 
 @tailwind components;
 @tailwind utilities;
