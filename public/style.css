@@ -32,6 +32,11 @@
 	text-align: center;
 }
 
+.rush-header{
+    background-image: linear-gradient(rgba(0, 0, 28, 0.5), #faca15),
+    url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
+}
+
 .truck-stats{
     background-image: linear-gradient(rgba(0, 0, 28, 0.5), rgba(69, 69, 69, 0.824)),
     url("https://images.unsplash.com/photo-1541969487406-1f1adf3884ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80");
